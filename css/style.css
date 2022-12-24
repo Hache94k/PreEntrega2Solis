@@ -1,0 +1,199 @@
+/* 
+    .color1 { #090f13 };
+    .color2 { #171f25 };
+    .color3 { #752e2b };
+    .color4 { #c90a02 };
+    .color5 { #f2eab7 }; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+*/
+    
+/* base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px; 
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    min-height: 200%;
+    width: 100%;  
+}
+
+header {
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 20%, #2BD2FF 52%, #2BFF88 90%);
+    height: 5%;
+    max-width: 100%;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    background-color: white;
+    height: 90%;
+    color: black;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 20%, #2BD2FF 52%, #2BFF88 90%);
+    max-height: 5%;
+    color: white;
+    max-width: 100%;
+    font-size: 0;
+}
+
+/* HADER TOP NAV */
+.menu {
+    list-style: none;
+    height: 100%;
+    max-width: 100%;
+}
+.menu__lista {
+    height: 100%; 
+    max-width: 100%;
+    animate__fadeIn
+}
+
+.menu__titulo h1 {
+    font-size: 20px;
+    height: 100%;
+    max-width: 100%;
+  
+}
+
+.menu__lista li {
+    display: inline-block;
+    color: white;
+    height: 100%;
+    max-width: 100%;
+    transition: transform 2seg;
+}
+
+.menu__lista li:hover {
+    transform: scale(1.1);
+}
+
+
+.menu__link a, .carta__boton a {
+    color: white;
+    max-width: 100%;
+}
+
+
+.menu__link {
+    height: 100%;
+    margin-left: 220px;
+    max-width: 100%;
+}
+
+.menu__link a:hover, 
+.menu__link.active, .carta__boton a:hover{
+    color: white;
+    text-decoration: underline double;
+
+}
+
+#logoTop {
+    width: 50px;
+    height: 50px;
+}
+ 
+/* MAIN CARTAS */
+
+.carta {
+    height: 50%;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    border-color: black;
+    border-style: dotted ;
+    border-width: 0px 0px 2px 0px;
+    border-radius: 100%;
+    
+}
+
+.carta__img {
+    height: 75vh;
+    width: 80%;
+    margin-left: 9.6vw;
+    max-width: 100%;
+}
+
+.carta__titulo {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.carta__parrafo {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    max-width: 100%;
+}
+
+.carta__boton {
+    margin-left: 47.7vw;
+    margin-top: 12px;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    transition: transform 2seg;
+}
+
+.carta__boton:hover {
+    transform: scale(1.1);
+}
+
+
+
+.carta__img--cargador {
+    height: 60vh;
+    width: 40%;
+    margin-left: 31vw;
+}
+
+/* FOOTER BOTTOM*/
+
+.redes {
+    display: inline-block;
+    font-size: 0;
+    width: 20%;
+}
+
+.redes__logo {
+    width: 35px;
+    height: 35px;
+    font-size: 0;
+    display: inline;
+    margin-inline: 0.8%;
+}
+
+.redes__titulo {
+    display: inline-block;
+    font-size: 1rem;
+    width: 15%; 
+    margin-left: 5%;
+}
+
+.direccion {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 56%;
+}
+

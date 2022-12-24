@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solis Apple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/logoSimple2.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__ico">
+                    <img src="./assets/icons/logoSimple2.ico" alt="Logo SolisApple" id="logoTop">
+                </li>
+                <li class="menu__titulo">
+                    <h1>SOLIS<br>APPLE</h1>
+                </li>
+                <li class="menu__link active">
+                    <a href="./index.html" target="_self">HOME</a>
+                </li>
+                <li class="menu__link">
+                    <a href="./pages/iphone.html" target="_self">iPHONE</a>
+                </li>
+                <li class="menu__link">
+                    <a href="./pages/cargadores.html" target="_self">CARGADORES</a>
+                </li>
+                <li class="menu__link">
+                    <a href="./pages/quienes-somos.html" target="_self">QUIENES SOMOS</a>
+                </li>
+                <li class="menu__link">
+                    <a href="./pages/contactanos.html" target="_self">CONTACTANOS</a>                        
+                </li>
+            </ul>
+        </nav>
+    </header>   
+    <main>
+        <div class="carta" >
+            <img class="carta__img" src="./assets/images/iphone/14/14base.jpg" alt="iphone 14">
+            <h1 class="carta__titulo">iPHONE</h1>
+            <p class="carta__parrafo">XR, 11, 12, 13, 14, todos los que quieras...</p>
+            <button class="carta__boton"><a href="./pages/iphone.html">Ver más</a></button>
+        </div>
+        <div class="carta" data-aos="fade-left">
+            <img class="carta__img--cargador" src="./assets/images/cargador/cargador-blanco.jpg" alt="iphone 14">
+            <h1 class="carta__titulo">CARGADORES</h1>
+            <p class="carta__parrafo">LIGHTNING, INALAMBRICOS, todos los que quieras...</p>
+            <button class="carta__boton"><a href="./pages/cargadores.html">Ver más</a></button>
+        </div>
+    </main>
+    <footer>
+        <section class="redes">
+            <h2 class="redes__titulo">
+                Redes: 
+            </h2>
+            <a href="https://www.instagram.com/solisapple_/" target="_blank">
+                <img class="redes__logo" src="./assets/images/logos/instagramLogo.JPG" alt="logo instagram" >
+            </a>
+            <a href="https://www.instagram.com/solisapple_/" target="_blank">
+                <img class="redes__logo" src="./assets/images/logos/wppLogo.ico" alt="logo instagram">                
+            </a>    
+        </section>
+        <section class="direccion">
+            <h2 class="footer__p">
+                Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA. <br>
+                Copyright © 1996-2022 SolisApple S.A.
+            </h2>
+        </section>       
+    </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
